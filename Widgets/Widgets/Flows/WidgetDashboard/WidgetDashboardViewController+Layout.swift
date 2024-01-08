@@ -62,7 +62,6 @@ extension WidgetDashboardViewController {
             return nil
         }
         let totalHeightInGroup = viewModel.getTotalHeightOrWidthInGroup(from: widgetGroup, layoutType: layoutType, isTotalHeight: true)
-        let maxHeightInGroup = viewModel.getMaxHeightOrWidthInGroup(from: widgetGroup, isMaxHeight: true)
         let totalWidthInGroup = viewModel.getTotalHeightOrWidthInGroup(from: widgetGroup, layoutType: layoutType, isTotalHeight: false)
        
         let widgets = widgetGroup.widgets
