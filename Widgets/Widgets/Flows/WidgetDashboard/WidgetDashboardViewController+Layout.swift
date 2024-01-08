@@ -9,6 +9,39 @@ import Foundation
 import UIKit
 
 extension WidgetDashboardViewController {
+        
+    // MARK: - Create Layout -
+    
+    func createLayout() -> UICollectionViewCompositionalLayout {
+        var totalHeightInGroups: CGFloat = 0
+        var collectionLayoutGroups: [NSCollectionLayoutGroup] = []
+        let widgetGroups = viewModel.getWidgetGroups()
+        
+        for group in widgetGroups {
+            if let widgetGroup = createLayoutGroup(widgetGroup: group), let layoutType = group.layoutType {
+                let totalHeight = viewModel.getTotalHeightOrWidthInGroup(
+                    from: group,
+                    layoutType: layoutType,
+                    isTotalHeight: true
+                )
+                totalHeightInGroups += totalHeight
+                collectionLayoutGroups.append(widgetGroup)
+            }
+        }
+        
+        let layoutSize = NSCollectionLayoutSize(
+            widthDimension: .fractionalWidth(1),
+            heightDimension: .absolute(totalHeightInGroups)
+        )
+        
+        let containerGroup = NSCollectionLayoutGroup.vertical(layoutSize: layoutSize, subitems: collectionLayoutGroups)
+        
+        let section = NSCollectionLayoutSection(group: containerGroup)
+        let layout = UICollectionViewCompositionalLayout(section: section)
+        return layout
+    }
+    
+    // MARK: - Create Item -
     
     func createItem(widget: WidgetItem) -> NSCollectionLayoutItem {
         let itemSize = NSCollectionLayoutSize(
@@ -21,6 +54,8 @@ extension WidgetDashboardViewController {
         
         return item
     }
+    
+    // MARK: - Create Layout Group -
     
     func createLayoutGroup(widgetGroup: WidgetGroup) -> NSCollectionLayoutGroup? {
         guard let layoutType = widgetGroup.layoutType else {
@@ -42,7 +77,7 @@ extension WidgetDashboardViewController {
         
         // Group Layout Creation
         let layoutSize = NSCollectionLayoutSize(
-            widthDimension: .absolute(totalWidthInGroup), // .fractionalWidth(1),
+            widthDimension: .absolute(totalWidthInGroup),
             heightDimension: .absolute(totalHeightInGroup)
         )
         
