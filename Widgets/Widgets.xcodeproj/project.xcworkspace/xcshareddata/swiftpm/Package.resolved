@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "objectmapper",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/tristanhimmelman/ObjectMapper",
+      "state" : {
+        "revision" : "0b96a734de3ea1c87374ae677064f86adb0716ec",
+        "version" : "4.2.0"
+      }
+    },
+    {
+      "identity" : "sdwebimage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SDWebImage/SDWebImage",
+      "state" : {
+        "revision" : "fd010e54231331fc19338f81c6d072cd9ace2825",
+        "version" : "5.18.8"
+      }
+    }
+  ],
+  "version" : 2
+}
