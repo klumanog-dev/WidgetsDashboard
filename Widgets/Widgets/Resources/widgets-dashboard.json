@@ -1,0 +1,117 @@
+[
+   {
+      "layout_type":"vertical",
+      "items":[
+         {
+            "style":"rectangle_medium",
+            "image_url": "https://picsum.photos/id/13/400/140",
+            "title":null
+         },
+         {
+            "style":"rectangle_regular",
+            "image_url": "https://picsum.photos/id/14/400/190",
+            "title":null
+         }
+      ]
+   },
+   {
+      "layout_type":"horizontal",
+      "items":[
+         {
+            "style":"square_medium",
+            "image_url": "https://picsum.photos/id/20/200",
+            "title":null
+         },
+         {
+            "style":"square_medium",
+            "image_url": "https://picsum.photos/id/21/200",
+            "title":null
+         },
+         {
+            "style":"square_medium",
+            "image_url": "https://picsum.photos/id/22/200",
+            "title":null
+         }
+      ]
+   },
+   {
+      "layout_type":"horizontal",
+      "items":[
+         {
+            "style":"square_regular",
+            "image_url": "https://picsum.photos/id/23/195",
+            "title":null
+         },
+         {
+            "style":"square_mini",
+            "image_url": "https://picsum.photos/id/24/100",
+            "title":"App 1",
+         },
+         {
+            "style":"square_mini",
+            "image_url": "https://picsum.photos/id/25/100",
+            "title":"App 2"
+         },
+         {
+            "style":"square_mini",
+            "image_url": "https://picsum.photos/id/26/100",
+            "title":"App 3"
+         },
+         {
+            "style":"square_mini",
+            "image_url": "https://picsum.photos/id/27/100",
+            "title":"App 4"
+         }
+      ]
+   },
+   {
+      "layout_type":"horizontal",
+      "items":[
+         {
+            "style":"square_regular",
+            "image_url": "https://picsum.photos/id/28/195",
+            "title":null
+         },
+         {
+            "style":"square_regular",
+            "image_url": "https://picsum.photos/id/29/195",
+            "title":null
+         }
+      ]
+   },
+   {
+      "layout_type":"horizontal",
+      "items":[
+         {
+            "style":"large",
+            "image_url": "https://picsum.photos/id/30/400",
+            "title":null
+         }
+      ]
+   },
+   {
+      "layout_type":"horizontal",
+      "items":[
+         {
+            "style":"square_mini",
+            "image_url": "https://picsum.photos/id/31/100",
+            "title":"App 1"
+         },
+         {
+            "style":"square_mini",
+            "image_url": "https://picsum.photos/id/32/100",
+            "title":"App 2"
+         },
+         {
+            "style":"square_mini",
+            "image_url": "https://picsum.photos/id/33/100",
+            "title":"App 3"
+         },
+         {
+            "style":"square_mini",
+            "image_url": "https://picsum.photos/id/34/100",
+            "title":"App 4"
+         }
+      ]
+   }
+]
