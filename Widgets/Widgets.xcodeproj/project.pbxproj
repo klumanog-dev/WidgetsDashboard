@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		8D1F74902B46E07E002CD236 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1F748F2B46E07E002CD236 /* AppDelegate.swift */; };
 		8D1F74922B46E07E002CD236 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1F74912B46E07E002CD236 /* SceneDelegate.swift */; };
-		8D1F74942B46E07E002CD236 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1F74932B46E07E002CD236 /* ViewController.swift */; };
 		8D1F74992B46E07F002CD236 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D1F74982B46E07F002CD236 /* Assets.xcassets */; };
 		8D1F749C2B46E07F002CD236 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D1F749A2B46E07F002CD236 /* LaunchScreen.storyboard */; };
 		8D1F74AC2B46EC15002CD236 /* AppNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1F74AB2B46EC15002CD236 /* AppNavigator.swift */; };
@@ -41,7 +40,6 @@
 		8D1F748C2B46E07E002CD236 /* Widgets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Widgets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D1F748F2B46E07E002CD236 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D1F74912B46E07E002CD236 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8D1F74932B46E07E002CD236 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8D1F74982B46E07F002CD236 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D1F749B2B46E07F002CD236 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D1F749D2B46E07F002CD236 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -226,7 +224,6 @@
 				8D1F74B72B475548002CD236 /* WidgetDashboardViewController.swift */,
 				8D52A8032B4A822600BF8D86 /* WidgetDashboardViewController+Layout.swift */,
 				8D52A8192B4B69A300BF8D86 /* WidgetDashboardViewController.xib */,
-				8D1F74932B46E07E002CD236 /* ViewController.swift */,
 			);
 			path = WidgetDashboard;
 			sourceTree = "<group>";
@@ -374,7 +371,6 @@
 			files = (
 				8D52A7FE2B4A462F00BF8D86 /* WidgetLayoutType.swift in Sources */,
 				8D52A7FC2B4A45F200BF8D86 /* Sizes.swift in Sources */,
-				8D1F74942B46E07E002CD236 /* ViewController.swift in Sources */,
 				8D52A8112B4B61C600BF8D86 /* UIImageView+SetFromURL.swift in Sources */,
 				8D1F74BD2B475B05002CD236 /* WidgetCollectionViewCell.swift in Sources */,
 				8D52A7F82B49F2F500BF8D86 /* WidgetGroup.swift in Sources */,
